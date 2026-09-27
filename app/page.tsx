@@ -9,15 +9,12 @@ const steps = [
 export default function HomePage() {
   return (
     <>
-      <header className="nav">
-        <span className="logo">Helder Dental</span>
-        <nav><Link href="/treatments">Treatments</Link></nav>
-      </header>
       <section className="hero">
         <div>
           <p>Clinic · Rivierenbuurt</p>
           <h1>Quiet dentistry, explained before it starts.</h1>
           <p>Adults and children. Most Dutch insurers accepted. Emergency chair on weekday mornings.</p>
+          <p><Link href="/new-patients">New patient visit</Link></p>
         </div>
         <aside className="note">
           <strong>This week</strong>
